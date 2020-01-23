@@ -15,3 +15,12 @@ function coolFunctionBro() {
     document.getElementById("concatenate").innerHTML = sentence;
 }
 
+//write my own function assignment//
+
+function embiggen() {
+    var str = "BIGGER TEXT"
+    big = str.fontsize(22);
+    document.getElementById("grow").innerHTML = big;
+
+
+}

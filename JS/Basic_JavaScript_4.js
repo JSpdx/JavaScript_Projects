@@ -1,8 +1,5 @@
 
 
-
-
-//Step 87: KVP dictionary
 function my_dictionary() {
     pc = {
         graphics_card : "GTX1070",

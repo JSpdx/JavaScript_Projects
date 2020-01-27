@@ -49,12 +49,12 @@ function concat() {
     function  concat2() {
         var str1 = document.getElementById('userStr').value,
         str2 = " ALSO THE MOON LANDING WAS FAKED!! THE EARTH IS FLAT!! (cue banjo music)"
-       
         var result = str1 + str2;
         return result
         }
 }
   
+       
         
     
 

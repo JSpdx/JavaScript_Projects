@@ -1,0 +1,7 @@
+
+
+line 584	  |  class name isn't in quotations
+
+line 581 and 592 | recordMove and recordMoves (2 seperate variables?)
+
+line 307, 320     | ; expected not in demo. (52:36)

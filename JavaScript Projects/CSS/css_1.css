@@ -1,0 +1,16 @@
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+}
+
+body {
+    background-color: rgb(200, 220, 255);
+}
+
+input[type=submit] {
+    border: 2px solid gray;
+}

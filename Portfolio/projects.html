@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang ='en'>
+
+<!--Head-->
+    <head>
+        <meta charset='utf-8'>
+        <title>Jon Shaw | Software Development</title>
+        <link rel='stylesheet' type='text/css' href='Stylesheet/ProjectsStylesheet.css'>
+        <script src='javaScript/javaScript.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+<!-- Body -->
+<body class="Background">
+<!-- Fade in effect --> <!--This script and function controls our fade in effect -->
+<script>
+    document.body.className += ' fade-out';
+        $(function() {
+            $('body').removeClass('fade-out');
+        }    
+    );
+
+</script>
+
+<!-- Navbar -->
+    <div class='Navbar'>
+        <a class='active' href='index.html'>Home</a>
+        <a href='index.html#Slideshow'>Slideshow</a><!--THis is a new section-->
+        <a href='index.html#About'>About</a>
+        <a href='index.html#GitHub'>GitHub</a>
+        <a href='#Projects'>Projects</a>
+        <a onclick="openForm()">Contact</a> <!-- runs form in nav bar -->
+    </div>
+
+    <div class="btn cancel" onclick="closeForm()">
+<!-- This allows us to close the form when we click outside the nav bar or contact form -->
+
+
+l
+
+<h1>PROJECTS</h1>
+    <div id="project_list">
+        <div class="project_container">
+            <h3>Library Database</h3>
+            <ul>Created a test database and several stored procedures.<br> Technologies/Languages used: T-SQL, and Microsoft SQL Server.
+            </ul>
+            <ul><a href='https://github.com/JSpdx/SQL_Projects'>Github Link</a></ul>
+        </div>
+        <div class="project_container">
+            <h3>.txt transfer application with GUI</h3>
+            <ul>An application with a GUI that transfers .txt files from one directory to another, and records files and date modified into a database. <br><br> Technologies/Languages used: Python, and tkinter.
+            </ul>
+            <ul><a href='https://github.com/JSpdx/Python_Projects/tree/master/TXT_mover_project/TXT_mover'>Github Link</a></ul>
+        </div>
+        <div class="project_container">
+            <h3>Focuser Astronomy Web App</h3>
+            <ul>
+                An application built in Django that displays a daily astronomy picture, recieves a newsfeed from the International Space Station,<br> gets a list of upcoming meteor showers, and stores information about upcoming eclipses.
+                <br><br>Technologies/Languages used: Python, Django, Beautiful Soup, Wolfram Alpha, virtualenv.
+            </ul>
+            <ul><a href="https://github.com/JSpdx/FOCUSER">Github Link</a></ul>
+        </div>
+        <div class="project_container">
+            <h3>Local Theatre Company's website</h3>
+            <ul>
+                I added styling and many features to the site during my time with the project, including: <br> A fully featured customizable search function that would query multiple tables in the database, and return the results with the search key highlited.<br>
+                A photo page that would add photos responsively using AJAX calls as the user scrolled to the bottom, like instagram or twitter.<br>
+                An animated modal that would cause a selected photo to enlarge and be displayed on a dark background when clicked.
+                <br><br>Technologies/Languages used: C#, ASP.NET MVC, CSHTML, Javascript, jQuery, AJAX, CSS, Bootstrap, LINQ, REGEX
+            </ul>
+        </div>
+
+        <div class="project_container">
+            <h3>Hotel backend</h3>
+            <ul>A functioning system to create edit and delete entries to a restaraunt menu from within a hotel's website<br><br> Technologies/Languages used: Python, Django framework, and virtualenv.
+            </ul>
+            <ul><a href='https://github.com/JSpdx/Python_Projects/tree/master/django_hotel_project'>Github Link</a></ul>
+        </div>
+		<div class="project_container">
+            <h3>Car Insurance Quotes</h3>
+            <ul>A web application that gets information from the user, stores it in a database, then applies business logic and returns a quote. Also includes an admin page where all the database entries can be viewed.
+			<br><br> Technologies/Languages used: C#/.NET Framework, .NET MVC, Bootstrap, SQL Server Management Studio, Visual Studio 2019, CSHTML
+            </ul>
+            <ul><a href='https://github.com/JSpdx/Python_Projects/tree/master/django_hotel_project'>Github Link</a></ul>
+        </div>
+
+    </div>
+    <ul>
+
+</ul>
+
+
+<!-- Footer section-->
+        <footer>
+            <p>
+                <center>&copy; Jon Shaw</center>
+            </p>
+        </footer>
+
+</body>
+</html>

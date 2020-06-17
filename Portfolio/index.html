@@ -5,13 +5,16 @@
     <head>
         <meta charset='utf-8'>
         <title>Jon Shaw | Software Development</title>
-        <link rel='stylesheet' type='text/css' href='Stylesheet/Stylesheet.css'>
         <script src='javaScript/javaScript.js'></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <!-- Bootstrap. Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel='stylesheet' type='text/css' href='Stylesheet/Stylesheet.css'>
     </head>
 
 <!-- Body -->
-<body class="Background">
+<body>
 <!-- Fade in effect --> <!--This script and function controls our fade in effect -->
 <script>
     document.body.className += ' fade-out';
@@ -25,30 +28,30 @@
 <!-- Navbar -->
     <div class='Navbar'>
         <a class='active' href=#Home>Home</a>
-        <a href=#Slideshow">Slideshow</a><!--THis is a new section-->
+        <a href='projects.html'>Projects</a><!--THis is a new section-->
         <a href='#About'>About</a>
         <a href='#GitHub'>GitHub</a>
         <a onclick="openForm()">Contact</a> <!-- runs form in nav bar -->
     </div>
 
-    <div class="btn cancel" onclick="closeForm()">
+    <div class="container btn cancel" id="page-body" onclick="closeForm()">
 <!-- This allows us to close the form when we click outside the nav bar or contact form -->
 
 <!-- Home -->
-    <div id='Home'>
-        <br> <!-- Breaks inserted to add space betwween navbar and first heading-->
-        <br>
+        <div id='Home'>
+            <br> <!-- Breaks inserted to add space betwween navbar and first heading-->
+            <br>
+        </div>
 
 <!-- Video -->
-        <video autoplay muted loop id='Background_Video'>
+        <video autoplay muted loop id='Background_Video' class=''>
             <source src='vids/cover_vid3.mp4' type='video/mp4'>
             Your browser does not support HTML5 video
         </video>
-    </div>
 
 <!-- Video Text -->
-    <div class='Video_Text'>
-        <h1 style='color: white;'>Jon Shaw || Coding</h1>
+    <div class='Video_Text '>
+        <h1 style='color: white;'>Jon Shaw || Full-stack</h1>
             <p>
                 <strong>
                     <center>
@@ -163,7 +166,7 @@
 
             <div class='Column_1'> <!-- Right Column -->
                 <h1>About</h1>
-                  <p>I'm a full stack developer who would love to work with you on your project.<br><br> I'm a graduate of <a href='https://www.learncodinganywhere.com' target='_blank'>The Tech Academy</a> boot camp, and I'm trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> I also hold a Bachelor's in Music fom Western Oregon University <br><br><a href='#Contact'>Contact</a> me below!</p>
+                  <p>I'm a full stack developer who would love to work with you on your project.<br><br> I'm a graduate of <a href='https://www.learncodinganywhere.com' target='_blank'>The Tech Academy</a> boot camp, and I'm trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> I also hold a Bachelor's in Music fom Western Oregon University <br><br> <!-- <a href='#Contact'>Contact</a> me below!</p> -->
             </div> 
         </div>
 
@@ -176,16 +179,16 @@
             </div>
                  
                 <div class='Column_2'> <!--Right column-->
-                    <a href='https://www.github.com/JSpdx' target='_blank'><img src='github.jpg' alt='GitHub'></a>
+                    <a href='https://www.github.com/JSpdx' target='_blank'><img src='pics/github.jpg' alt='GitHub'></a>
                 </div>
         </div>
     </div>
 
     <!-- Contact Section-->
-    <div id='Contact'>
+    <!-- <div id='Contact'>
         <button onclick="openForm()" class='Pop_Up_Button'> CONTACT </button>
             <div class='form-popup' id='myForm'>
-                <form action='https://formspree.io/info@learncodinganywhere.com' method='POST' class='form-container'> <!-- Using formspree to push info to an email -->
+                <form action='https://formspree.io/info@learncodinganywhere.com' method='POST' class='form-container'> Using formspree to push info to an email
                 <h1>Contact</h1>
                     <label for='name'><b>Name</b></label>
                         <input type='text' placeholder='Type your name here' name='name' required>
@@ -200,7 +203,7 @@
                     <button type='buttom' class='btn cancel' onclick='closeForm()'>CLOSE</button>
                 </form>
             </div>
-        </div>
+        </div> -->
               
 <!-- Footer section-->
         <footer>

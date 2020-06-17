@@ -14,6 +14,11 @@ body {
 
 }
 
+#page-body {
+    width: 100%;
+    margin: auto;
+}
+
 /* This section contributes to the fade effect for the page that occurs when the page is loaded */
 body.fade-out {
     opacity: .1; /* sets opacity at start of load */

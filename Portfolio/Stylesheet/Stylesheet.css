@@ -34,8 +34,8 @@ body.fade-out {
     width: 100%; /* Spans width ofentire page */
     z-index: 1; /* Keeps navbar in front */
     
-    -webkit-animation: moveNav 5s;
-    animation: moveNav 5s;
+    -webkit-animation: moveNav 2s;
+    animation: moveNav 2s;
 }
 
 /* Navbar Text */
@@ -49,8 +49,8 @@ body.fade-out {
     font-size: 1.5vw; /*This specifies the font size for text on our navbar */
     text-align: center; /* centers text within continer */
     position: relative;
-    -webkit-animation: movenavText 5.75s;
-    animation: movenavText 5.75s;
+    -webkit-animation: movenavText 2.5s;
+    animation: movenavText 2.5s;
     letter-spacing: .2vw;
 }
 
@@ -468,7 +468,7 @@ footer center {
     white-space: normal;
 }
 
-/*Contact section*/
+/*==================================Contact page==================================*/
 
 .contact-link {
     color:cadetblue;
@@ -479,4 +479,11 @@ footer center {
     border-radius:10px;
     margin-top: 10vw;
     max-width: 900px;
+}
+
+
+/*====================================Project page======================================*/
+
+#project-list {
+    margin-top: 10%;
 }

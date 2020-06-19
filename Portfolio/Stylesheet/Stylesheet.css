@@ -106,6 +106,7 @@ body.fade-out {
     min-height:  100%;
     top: 0;
     z-index: -1;
+    width: 100%;
     animation: zoominoutsinglefeatured 5s;
 }
 
@@ -130,6 +131,7 @@ body.fade-out {
 
 .mySlides {
     display: none;
+    opacity: 1;
 }
 
 @-webkit-keyframes fade {

@@ -467,3 +467,16 @@ footer center {
 .about-text {
     white-space: normal;
 }
+
+/*Contact section*/
+
+.contact-link {
+    color:cadetblue;
+}   
+
+#contact-container {
+    background-color: whitesmoke;
+    border-radius:10px;
+    margin-top: 10vw;
+    max-width: 900px;
+}

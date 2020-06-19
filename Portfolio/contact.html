@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<!--Head-->
+<head>
+    <meta charset='utf-8'>
+    <title>Jon Shaw | Software Development</title>
+    <script src='javaScript/javaScript.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- Bootstrap. Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='Stylesheet/Stylesheet.css'>
+</head>
+
+<body style="background-color: black">
+    <!-- Navbar -->
+    <div class='Navbar'>
+        <a class='active' href='index.html'>Home</a>
+        <a href='projects.html'>Projects</a><!--THis is a new section-->
+        <a href='#About'>About</a>
+        <a href='#GitHub'>GitHub</a>
+        <a onclick="openForm()">Contact</a> <!-- runs form in nav bar -->
+    </div>
+
+    <div class="container btn cancel" id="page-body" onclick="closeForm()">
+        <!-- This allows us to close the form when we click outside the nav bar or contact form -->
+        <!-- Home -->
+        <div id='Home'>
+            <br> <!-- Breaks inserted to add space betwween navbar and first heading-->
+            <br>
+        </div>
+        <div class="container" id="contact-container" style="background-color: whitesmoke">
+            <h1>CONTACT</h1>
+            <h3>Jon Shaw</h3>
+            <h3>jonshaw440@gmail.com</h3>
+            <h3>503-550-6182</h3>
+            <h3><a class="contact-link" href="https://docs.google.com/document/d/e/2PACX-1vToRqd3HSCyBKhq1fWVQEbSGAgH3mWS_6c8J_qZXI5wxalt-Zm3781QN_a5RHoiaAfALm9k5fIMjfn8/pub">Resume</a></h3>
+            <h3><a class="contact-link" href="https://www.linkedin.com/in/js-pdx/">LinkedIn</a></h3>
+        </div>
+</body>

@@ -104,8 +104,6 @@
                         </div>
                     </div>
 
-                    <a class='Previous' onclick='plusSlides(-1)'>&#10094;</a>
-                    <a class='Next' onclick='plusSlides(1)'>&#10095;</a>
 
                 </div>
                 <br>
@@ -121,6 +119,9 @@
 
                 </div>
             </div>
+
+            <a class='Previous' onclick='plusSlides(-1)'>&#10094;</a>
+            <a class='Next' onclick='plusSlides(1)'>&#10095;</a>
         </div>
 
         <!-- Include JS Slideshow function here to give precedence-->
@@ -150,58 +151,60 @@
             }
         </script>
 
-        <!-- About Section -->
-        <div class='Row' id='About'>
-            <div class='Column_2'>
-                <!-- Left Column -->
-                <img src='pics/about1.jpg' alt='laptop'>
+        <section class="container">
+            <!-- About Section -->
+            <div class='Row row' id='About'>
+                <div class='Column_2 col-sm'>
+                    <!-- Left Column -->
+                    <img src='pics/about1.jpg' alt='laptop'>
+                </div>
+
+                <div class='Column_1 col-sm'>
+                    <!-- Right Column -->
+                    <h1>About</h1>
+                    <p class="about-text">I'm a full stack developer who would love to work with you on your project.<br><br> I'm a graduate of <a href='https://www.learncodinganywhere.com' target='_blank'>The Tech Academy</a> boot camp, and I'm trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> I also hold a Bachelor's in Music fom Western Oregon University <br><br> <!-- <a href='#Contact'>Contact</a> me below!</p> -->
+                </div>
             </div>
 
-            <div class='Column_1'>
-                <!-- Right Column -->
-                <h1>About</h1>
-                <p>I'm a full stack developer who would love to work with you on your project.<br><br> I'm a graduate of <a href='https://www.learncodinganywhere.com' target='_blank'>The Tech Academy</a> boot camp, and I'm trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> I also hold a Bachelor's in Music fom Western Oregon University <br><br> <!-- <a href='#Contact'>Contact</a> me below!</p> -->
-            </div>
-        </div>
+            <!-- Github Section-->
+            <div class='Row row' id='GitHub'>
+                <div class='Column_1 col-sm'>
+                    <!--Left column-->
+                    <h1>GitHub</h1>
+                    <p>
+                        You can view my coding projects on my GitHub profile here:<br>
+                        <center><a href='https://github.com/JSpdx' target='_blank'>JSpdx</a></center>
+                    </p>
+                </div>
 
-        <!-- Github Section-->
-        <div class='Row' id='GitHub'>
-            <div class='Column_1'>
-                <!--Left column-->
-                <h1>GitHub</h1>
-                <p>
-                    You can view my coding projects on my GitHub profile here:<br>
-                    <center><a href='https://github.com/JSpdx' target='_blank'>JSpdx</a></center>
-                </p>
+                <div class='Column_2 col-sm'>
+                    <!--Right column-->
+                    <a href='https://www.github.com/JSpdx' target='_blank'><img src='pics/github.jpg' alt='GitHub'></a>
+                </div>
             </div>
-
-            <div class='Column_2'>
-                <!--Right column-->
-                <a href='https://www.github.com/JSpdx' target='_blank'><img src='pics/github.jpg' alt='GitHub'></a>
-            </div>
-        </div>
+        </section>
     </div>
 
     <!-- Contact Section-->
-     <div id='Contact'>
-        <button onclick="openForm()" class='Pop_Up_Button'> CONTACT </button>
-            <div class='form-popup' id='myForm'>
-                <form action='https://formspree.io/info@learncodinganywhere.com' method='POST' class='form-container'> Using formspree to push info to an email
-                <h1>Contact</h1>
-                    <label for='name'><b>Name</b></label>
-                        <input type='text' placeholder='Type your name here' name='name' required>
-                    <label for='phone'><b>Phone</b></label>
-                        <input type='text' placeholder='Enter your phone number here' name='phone'>
-                    <label for='email'><b>Email</b></label>
-                        <input type='text' placeholder='Type your email address here' name='email' required>
-                    <label for='message'><b>Message</b></label>
-                        <input type='text' placeholder='Type your message here' name='message'>
+    <!--<div id='Contact'>
+       <button onclick="openForm()" class='Pop_Up_Button'> CONTACT </button>
+           <div class='form-popup' id='myForm'>
+               <form action='https://formspree.io/info@learncodinganywhere.com' method='POST' class='form-container'> Using formspree to push info to an email
+               <h1>Contact</h1>
+                   <label for='name'><b>Name</b></label>
+                       <input type='text' placeholder='Type your name here' name='name' required>
+                   <label for='phone'><b>Phone</b></label>
+                       <input type='text' placeholder='Enter your phone number here' name='phone'>
+                   <label for='email'><b>Email</b></label>
+                       <input type='text' placeholder='Type your email address here' name='email' required>
+                   <label for='message'><b>Message</b></label>
+                       <input type='text' placeholder='Type your message here' name='message'>
 
-                    <button type='submit' class='btn'>SUBMIT</button>
-                    <button type='button' class='btn cancel' onclick='closeForm()'>CLOSE</button>
-                </form>
-            </div>
-        </div> 
+                   <button type='submit' class='btn'>SUBMIT</button>
+                   <button type='button' class='btn cancel' onclick='closeForm()'>CLOSE</button>
+               </form>
+           </div>
+       </div>-->
     <!-- Footer section-->
     <footer>
         <p>

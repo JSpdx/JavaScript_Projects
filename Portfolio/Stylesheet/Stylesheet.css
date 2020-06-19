@@ -461,3 +461,9 @@ footer {
 footer center {
     color: white;
 }
+
+/*  About section*/
+
+.about-text {
+    white-space: normal;
+}

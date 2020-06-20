@@ -465,7 +465,12 @@ footer center {
 /*  About section*/
 
 .about-text {
-    white-space: normal;
+    white-space: break-spaces;
+}
+
+.about-background {
+    background-image: url('../pics/grey_texture1.jpg')
+    
 }
 
 /*==================================Contact page==================================*/

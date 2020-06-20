@@ -260,6 +260,10 @@ body.fade-out {
     /* background-image: url(../pics/texture2.jpg); */
 }
 
+.Column_1 a{
+    font-family: "Trebuchet MS", Optima;
+}
+
 .Column_2 {
     float: left;
     width: 50%;

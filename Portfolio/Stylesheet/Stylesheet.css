@@ -252,13 +252,12 @@ body.fade-out {
 }
 
 .Column_1 {
-    float:left;
+    float: left;
     width: 50%; /* makes one column take up half of page width */
     padding: 1.6%;
-    background-color: #f2f2f2;
+    background-color: #ff8484;
     height: 448px; /* adjust to fit content */
     /* background-image: url(../pics/texture2.jpg); */
-    
 }
 
 .Column_2 {
@@ -466,11 +465,11 @@ footer center {
 
 .about-text {
     white-space: break-spaces;
+    font-family: monospace;
 }
 
 .about-background {
-    background-image: url('../pics/grey_texture1.jpg')
-    
+    background-color: #a3dadc;
 }
 
 /*==================================Contact page==================================*/

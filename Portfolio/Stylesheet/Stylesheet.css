@@ -195,7 +195,7 @@ body.fade-out {
 .text {
     color: white;
     padding: 1vw;
-    position: absolute;
+/*    position: absolute;*/
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -204,8 +204,12 @@ body.fade-out {
     font-size: 1.5vw;
     background-color: rgba(0,0,0,0.75);
     font-weight: bold;
-    border-radius: 7px 7px 7px 7xp;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 10%;
+    white-space: nowrap;
 }
+
+
 
 /* Number text (1/6 2/6 etx) */
 .Slide_Number {
@@ -470,6 +474,12 @@ footer center {
 .about-text {
     white-space: break-spaces;
     font-family: monospace;
+    font-size: 1.5vw;
+}
+@media screen and (min-width: 1350px) {
+    .about-text {
+        font-size: 1vw;
+    }
 }
 
 .about-background {
